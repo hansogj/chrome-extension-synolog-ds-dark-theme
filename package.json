@@ -1,0 +1,20 @@
+{
+  "name": "chrome-extension-synolog-ds-dark-theme",
+  "version": "1.0.0",
+  "description": "DS Audio Dark Theme",
+  "main": "test.js",
+  "dependencies": {
+    "less": "^3.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "lessc theme.less theme.css"
+  },
+  "keywords": [
+    "DS",
+    "Audio",
+    "Dark"
+  ],
+  "author": "hansogj@gmail.com",
+  "license": "ISC"
+}
