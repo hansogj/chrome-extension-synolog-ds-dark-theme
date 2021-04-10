@@ -1,20 +1,31 @@
 {
-  "name": "chrome-extension-synolog-ds-dark-theme",
-  "version": "1.0.0",
-  "description": "DS Audio Dark Theme",
-  "main": "test.js",
-  "dependencies": {
-    "less": "^3.10.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "lessc theme.less theme.css"
-  },
-  "keywords": [
-    "DS",
-    "Audio",
-    "Dark"
-  ],
-  "author": "hansogj@gmail.com",
-  "license": "ISC"
+    "name": "chrome-extension-synolog-ds-dark-theme",
+    "version": "1.0.0",
+    "description": "DS Audio Dark Theme",
+    "main": "theme.css",
+    "files": [
+        "dist/theme.css",
+        "dist/theme.css.map",
+        "dist/*.js",
+        "dist/*.png"
+
+    ],
+    "dependencies": {
+        "less": "^3.10.3",
+        "sass": "^1.32.6"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "prestart": "rm -rf dist && mkdir -p dist ",
+        "start": "sass src/theme.scss dist/theme.css",
+        "poststart": "cp src/ds.png src/manifest.json dist/.",
+        "loss_lessed_do_not_use": " lessc src/theme.less dist/theme.css"
+    },
+    "keywords": [
+        "DS",
+        "Audio",
+        "Dark"
+    ],
+    "author": "hansogj@gmail.com",
+    "license": "ISC"
 }

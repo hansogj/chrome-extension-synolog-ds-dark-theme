@@ -1,0 +1,30 @@
+{
+    "name": "DS Audio Dark Theme",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "DS Audio Dark Theme",
+    "icons": {
+        "64": "ds.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_title": "Test Extension"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://192.168.0.103:8800/*",
+                "https://192.168.0.103:8800/*",
+                "http://solvill.is-by.us:8800/*",
+                "https://solvill.is-by.us:8800/*"
+            ],
+            "css": [
+                "theme.css"
+            ]
+        }
+    ]
+    
+}
