@@ -1,7 +1,8 @@
 {
     "name": "DS Audio Dark Theme",
+    "short_name": "Darko",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "DS Audio Dark Theme",
     "icons": {
         "64": "ds.png"
@@ -9,10 +10,6 @@
     "permissions": [
         "activeTab"
     ],
-    "browser_action": {
-        "default_title": "Test Extension"
-    },
-    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "content_scripts": [
         {
             "matches": [
@@ -26,5 +23,4 @@
             ]
         }
     ]
-    
 }

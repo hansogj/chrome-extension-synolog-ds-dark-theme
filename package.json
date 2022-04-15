@@ -8,18 +8,16 @@
         "dist/theme.css.map",
         "dist/*.js",
         "dist/*.png"
-
     ],
     "dependencies": {
-        "less": "^3.10.3",
-        "sass": "^1.32.6"
+        "less": "^4.1.2",
+        "sass": "^1.50.0"
     },
     "devDependencies": {},
     "scripts": {
         "prestart": "rm -rf dist && mkdir -p dist ",
         "start": "sass src/theme.scss dist/theme.css",
-        "poststart": "cp src/ds.png src/manifest.json dist/.",
-        "loss_lessed_do_not_use": " lessc src/theme.less dist/theme.css"
+        "poststart": "cp src/ds.png src/manifest.json dist/."
     },
     "keywords": [
         "DS",
