@@ -31,6 +31,8 @@ $black_85: rgba(0, 0, 0, 0.85);
 $color_dove_gray_approx: #646464;
 $color_allports_approx: #086ab0;
 
+$shadeColor: #06374f;
+
 //data-uris
 $data_uri_0: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZmZmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==";
 $data_uri_1: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U3ZmZmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZjZmJmYiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==";
@@ -62,998 +64,1038 @@ $url_20: url(images/_1x/shadow_footbar.png?v=3063);
 //original selectors
 //.syno-ux-gridpanel .x-grid3-hd, .syno-ux-gridpanel .syno-ux-editorgridpanel .x-grid3-hd
 %extend_1 {
-	border-left: 0;
-	border-bottom: 1px solid $color_mine_shaft_approx !important;
-	border-right: solid 1px $color_mine_shaft_approx !important;
+  border-left: 0;
+  border-bottom: 1px solid $color_mine_shaft_approx !important;
+  border-right: solid 1px $color_mine_shaft_approx !important;
 }
 
 #sds-desktop {
-	background-color: $color_cod_gray_approx !important;
+  background-color: $color_cod_gray_approx !important;
 
-	.sds-window-v5 {
-		.ext-el-mask {
-			background-color: $color_caribbean_green_10_approx;
-		}
-		.ext-el-mas {
-			background-color: $color_cod_gray_approx !important;
-		}
-		.x-panel-body {
-			background-color: $color_cod_gray_approx !important;
-		}
-	}
-	.syno-as-win {
-		.x-window-tl {
-			background-image: url($data_uri_0);
-			background-size: 100%;
-			background-image: linear-gradient($color_bahama_blue_approx, $color_lochmara_approx) !important;
-			background-image: linear-gradient($color_bahama_blue_approx, $color_lochmara_approx) !important;
-			border-top-color: $color_boulder_approx !important;
-			border-top-color: $color_boulder_approx !important;
-			color: $color_alto_approx;
-			color: $color_alto_approx;
-		}
-		.x-window-header-text {
-			color: $color_boulder_approx;
-		}
-		.syno-as-ux-pathtoolbar {
-			.x-btn {
-				button {
-					padding: 0;
-					color: $color_bahama_blue_approx;
-				}
-				&.x-btn-over button {
-					color: $color_boulder_approx;
-					font-weight: bold;
-				}
-			}
-			.x-first-btn button {
-				font-size: 18px;
-				color: $color_alto_approx !important;
-				display: block;
-			}
-		}
-		.ux-pathbuttons-scroller-right {
-			background-color: $color_alto_approx;
-		}
-		.ux-pathbuttons-scroller-left {
-			background-color: $color_alto_approx;
-		}
-		.syno-ux-gridpanel {
-			.x-grid3-row > * {
-				color: $white !important;
-			}
-			div.x-grid3-row {
-				&.x-grid3-row-over {
-					background-color: $color_bahama_blue_approx !important;
-					color: $white !important;
-				}
-				&.x-grid3-row-selected {
-					background-color: $color_ebony_clay_approx !important;
-					color: $color_lochmara_approx !important;
-				}
-			}
-		}
-		.syno-as-lpq-main-panel {
-			.syno-ux-gridpanel {
-				.syno-as-data-cell {
-					&.syno-as-data-title div {
-						color: $color_bahama_blue_approx;
-					}
-					&.syno-as-data-album div {
-						color: $color_river_bed_60_approx;
-					}
-				}
-				.x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
-					color: $color_river_bed_60_approx;
-				}
-			}
-			.syno-as-lpq-info-div {
-				.lpq-title-text {
-					color: $color_bahama_blue_approx;
-				}
-				.lpq-album-text {
-					color: $color_bahama_blue_approx;
-				}
-				.lpq-artist-text {
-					color: $color_bahama_blue_approx;
-				}
-			}
-		}
-		.syno-as-thumb-pin-type-wrap {
-			background-color: $color_mine_shaft_50_approx;
-		}
-		.syno-as-list {
-			.x-tree-node-leaf {
-				&.x-tree-node-over {
-					background-color: $color_mine_shaft_approx;
-					background-color: $color_caribbean_green_10_approx;
-					a span {
-						color: $color_bahama_blue_approx;
-					}
-				}
-				&.x-tree-selected {
-					background-color: $color_caribbean_green_10_approx !important;
-					a span {
-						color: $color_alto_approx !important;
-					}
-				}
-				a span {
-					color: $color_bahama_blue_approx;
-				}
-			}
-			.syno-as-list-title.x-tree-node-leaf {
-				&.x-tree-node-over {
-					background-color: $color_caribbean_green_10_approx !important;
-					color: $color_alto_approx;
-					background-color: $color_mine_shaft_approx;
-				}
-				a span {
-					color: $color_cod_gray_approx;
-				}
-			}
-			.syno-as-list-shoutcast-leaf.x-tree-node-leaf.x-tree-node-over {
-				color: $color_alto_approx;
-				background-color: $color_mine_shaft_approx;
-			}
-		}
-		.syno-as-player-panel {
-			color: $color_alto_approx;
-			.syno-as-control {
-				background-color: $color_bahama_blue_approx !important;
-			}
-			.player-panel-section {
-				border-right: 1px solid $white_25;
-			}
-		}
-		.syno-as-thumb-dataview .thumb-wrap {
-			&.x-view-selected {
-				background-color: $color_mine_shaft_approx !important;
-				border: 1px solid $black !important;
-			}
-			&.x-view-over {
-				background-color: $color_ebony_clay_approx !important;
-				border: 1px solid $black !important;
-			}
-		}
-		.thumb.thumb-loading {
-			background-color: $color_bahama_blue_approx !important;
-		}
-		.thumb-wrap span {
-			&.thumb-title {
-				color: $color_river_bed_40_approx !important;
-			}
-			&.thumb-artist {
-				color: $color_river_bed_40_approx !important;
-			}
-		}
-		.syno-as-volume-slider .syno-as-slider-bg {
-			background-color: $color_cod_gray_approx;
-		}
-	}
+  .sds-window-v5 {
+    .ext-el-mask {
+      background-color: $color_caribbean_green_10_approx;
+    }
+    .ext-el-mas {
+      background-color: $color_cod_gray_approx !important;
+    }
+    .x-panel-body {
+      background-color: $color_cod_gray_approx !important;
+    }
+  }
+  .syno-as-win {
+    .x-window-tl {
+      background-image: url($data_uri_0);
+      background-size: 100%;
+      background-image: linear-gradient(
+        $color_bahama_blue_approx,
+        $color_lochmara_approx
+      ) !important;
+      background-image: linear-gradient(
+        $color_bahama_blue_approx,
+        $color_lochmara_approx
+      ) !important;
+      border-top-color: $color_boulder_approx !important;
+      border-top-color: $color_boulder_approx !important;
+      color: $color_alto_approx;
+      color: $color_alto_approx;
+    }
+    .x-window-header-text {
+      color: $color_boulder_approx;
+    }
+    .syno-as-ux-pathtoolbar {
+      .x-btn {
+        button {
+          padding: 0;
+          color: $color_bahama_blue_approx;
+        }
+        &.x-btn-over button {
+          color: $color_boulder_approx;
+          font-weight: bold;
+        }
+      }
+      .x-first-btn button {
+        font-size: 18px;
+        color: $color_alto_approx !important;
+        display: block;
+      }
+    }
+    .ux-pathbuttons-scroller-right {
+      background-color: $color_alto_approx;
+    }
+    .ux-pathbuttons-scroller-left {
+      background-color: $color_alto_approx;
+    }
+    .syno-ux-gridpanel {
+      .x-grid3-row > * {
+        color: $white !important;
+      }
+      div.x-grid3-row {
+        &.x-grid3-row-over {
+          background-color: $color_bahama_blue_approx !important;
+          color: $white !important;
+        }
+        &.x-grid3-row-selected {
+          background-color: $color_ebony_clay_approx !important;
+          color: $color_lochmara_approx !important;
+        }
+      }
+    }
+    .syno-as-lpq-main-panel {
+      .syno-ux-gridpanel {
+        .syno-as-data-cell {
+          &.syno-as-data-title div {
+            color: $color_bahama_blue_approx;
+          }
+          &.syno-as-data-album div {
+            color: $color_river_bed_60_approx;
+          }
+        }
+        .x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
+          color: $color_river_bed_60_approx;
+        }
+      }
+      .syno-as-lpq-info-div {
+        .lpq-title-text {
+          color: $color_bahama_blue_approx;
+        }
+        .lpq-album-text {
+          color: $color_bahama_blue_approx;
+        }
+        .lpq-artist-text {
+          color: $color_bahama_blue_approx;
+        }
+      }
+    }
+    .syno-as-thumb-pin-type-wrap {
+      background-color: $color_mine_shaft_50_approx;
+    }
+    .syno-as-list {
+      .x-tree-node-leaf {
+        &.x-tree-node-over {
+          background-color: $color_mine_shaft_approx;
+          background-color: $color_caribbean_green_10_approx;
+          a span {
+            color: $color_bahama_blue_approx;
+          }
+        }
+        &.x-tree-selected {
+          background-color: $color_caribbean_green_10_approx !important;
+          a span {
+            color: $color_alto_approx !important;
+          }
+        }
+        a span {
+          color: $color_bahama_blue_approx;
+        }
+      }
+      .syno-as-list-title.x-tree-node-leaf {
+        &.x-tree-node-over {
+          background-color: $color_caribbean_green_10_approx !important;
+          color: $color_alto_approx;
+          background-color: $color_mine_shaft_approx;
+        }
+        a span {
+          color: $color_cod_gray_approx;
+        }
+      }
+      .syno-as-list-shoutcast-leaf.x-tree-node-leaf.x-tree-node-over {
+        color: $color_alto_approx;
+        background-color: $color_mine_shaft_approx;
+      }
+    }
+    .syno-as-player-panel {
+      color: $color_alto_approx;
+      .syno-as-control {
+        background-color: $color_bahama_blue_approx !important;
+      }
+      .player-panel-section {
+        border-right: 1px solid $white_25;
+      }
+    }
+    .syno-as-thumb-dataview .thumb-wrap {
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px $shadeColor;
 
-	.syno-as-dialog {
-		.x-window-tl {
-			background-image: linear-gradient($color_bahama_blue_approx, $color_lochmara_approx) !important;
-			border-top-color: $color_boulder_approx !important;
-			color: $color_alto_approx;
-		}
-		.x-window-header-text {
-			color: $color_boulder_approx;
-		}
-		.x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-right-row td {
-			background-color: $color_caribbean_green_10_approx;
-		}
-	}
-	.syno-as-toolbar {
-		.syno-audio-lyrics-line-highlight {
-			color: $color_boulder_approx;
-			font-weight: bold;
-		}
-		.syno-as-multi-airplay-all-line {
-			background-color: $pink;
-		}
-		.syno-as-multi-airplay-device-line {
-			background-color: $pink;
-		}
-		.syno-as-multi-aiplay-text {
-			color: $pink;
-		}
-		.syno-search-all-container {
-			background-position: 4px;
-			background-repeat: no-repeat;
-			font-size: 15px;
-			color: $color_lochmara_approx;
-			line-height: 38px;
-			display: inline-block;
-			padding-left: 35px;
-			&.syno-search-all-by-artist {
-				background-image: $url_0;
-				background-size: 24px 24px;
-			}
-			&.syno-search-all-by-album {
-				background-image: $url_1;
-				background-size: 24px 24px;
-			}
-			&.syno-search-all-by-song {
-				background-image: $url_2;
-				background-size: 24px 24px;
-			}
-		}
-		.syno-search-all-panel {
-			height: 238px;
-			.syno-search-all-more-btn {
-				background-color: transparent;
-				border: none;
-				display: inline-block;
-				width: 24px;
-				height: 24px;
-				margin-top: 5px;
-				background-image: $url_3;
-				background-size: 24px 72px;
-				background-repeat: no-repeat;
-				button {
-					background-color: transparent;
-					border: none;
-				}
-				&.x-btn-over {
-					background-position: 0 -24px;
-					cursor: pointer;
-				}
-				&.x-btn-click {
-					background-position: 0 -48px;
-				}
-			}
-		}
-		.syno-search-divider {
-			background-image: $url_4;
-			background-size: 1px 4px;
-			background-repeat: repeat-x;
-			background-position: 0 bottom;
-			height: 28px;
-		}
-		.syno-as-home-section-title {
-			line-height: 28px;
-			height: 28px;
-			margin-top: 12px;
-			padding-left: 32px;
-			font-size: 15px;
-			color: $color_outer_space_approx;
-			background-position: 0 2px;
-			background-repeat: no-repeat;
-			&.icon-type-pin {
-				background-image: $url_5;
-				background-size: 24px 24px;
-			}
-			&.icon-type-genre {
-				background-image: $url_6;
-				background-size: 24px 48px;
-			}
-		}
-		.syno-as-songcover-left {
-			.songcover-thumb-div {
-				display: inline-block;
-				width: 200px;
-				height: 200px;
-				margin-top: 20px;
-				margin-right: 20px;
-				position: relative;
-				img {
-					max-width: 200px;
-					max-height: 200px;
-					position: absolute;
-					top: 0;
-					left: 0;
-					right: 0;
-					bottom: 0;
-					margin: auto;
-					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-					box-shadow: none;
-				}
-			}
-			.thumb-wrap .thumb .songcover-thumb-div {
-				border: 1px solid transparent;
-				&.songcover-thumb-div-over {
-					background-color: $color_ebony_clay_approx;
-					border: 1px solid $black;
-				}
-			}
-		}
-		.syno-ux-gridpanel {
-			&.syno-as-search-result-local-grid {
-				border: solid $color_athens_gray_approx;
-				border-width: 0 1px 0 0;
-				margin-right: 2px;
-			}
-			&.syno-as-search-result-online-grid {
-				border: solid $color_athens_gray_approx;
-				border-width: 0 0 0 1px;
-				margin-left: 2px;
-				.x-grid3-row {
-					background-image: $url_7;
-					background-size: 24px 72px;
-					background-repeat: no-repeat;
-					background-position: right 0;
-					width: 24px;
-					height: 27px !important;
-					&.x-grid3-row-over {
-						background-position: right -24px;
-					}
-					&.x-grid3-row-selected {
-						background-position: right -48px;
-					}
-				}
-				.x-grid3-hd .x-grid3-hd-inner {
-					color: $color_boulder_approx;
-				}
-			}
-		}
-		.syno-as-search-result-menu {
-			&.x-layer {
-				padding: 0;
-			}
-			.x-menu-list-item {
-				.x-menu-item {
-					padding: 0;
-				}
-				span {
-					padding: 0 0 0 8px;
-				}
-			}
-			.x-menu-item-text {
-				text-overflow: ellipsis;
-				display: inline-block;
-				overflow: hidden;
-				&.x-menu-item-blue-text {
-				
-					&.x-menu-item-active {
-						color: $color_alto_approx;
-					}
-				}
-			}
-			.x-menu-check-item:hover {
-				cursor: pointer;
-			}
-		}
-		.syno-as-search-result-menu-item {
-			line-height: 27px;
-			font-size: 12px;
-		}
-		.syno-as-homepage-pin-empty {
-			padding: 10px;
-			margin: 26px auto;
-			font-size: 12px;
-			color: $color_bahama_blue_approx;
-			line-height: 24px;
-			text-align: center;
-			max-width: 680px;
-			display: block;
-		}
-		.syno-as-slider {
-			.syno-as-slider-progress {
-				position: absolute;
-				left: -7px;
-				height: 4px;
-				
-				z-index: 1;
-			}
-			.syno-as-slider-bg {
-				position: absolute;
-				height: 4px;
-				background-color: $color_ghost_approx;
-				filter: alpha(opacity=20);
-				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-				box-shadow: inset 0 1px 1px $black_20;
-				width: 100%;
-			}
-			.x-slider-thumb {
-				z-index: 10;
-				&.x-slider-thumb-over {
-					background-position: 0 0;
-				}
-				&.x-slider-thumb-drag {
-					background-position: 0 0;
-				}
-			}
-			&.x-slider-horz {
-				background-image: none;
-				height: 4px;
-				.x-slider-end {
-					background-image: none;
-					height: 4px;
-				}
-				.x-slider-inner {
-					background-image: none;
-					height: 4px;
-				}
-			}
-		}
-		.syno-as-mini-control-div {
-			height: 98px;
-			position: relative;
-			background-image: url($data_uri_1);
-			background-size: 100%;
-			background-image: linear-gradient($color_silver_chalice_approx, $color_hint_of_red_approx 40px);
-			.mini_position_div {
-				position: absolute;
-				top: 90px;
-				height: 16px;
-				.syno-as-position-slider {
-					.syno-as-slider-progress {
-						position: absolute;
-						left: -7px;
-						
-						z-index: 1;
-						height: 4px;
-						background-color: $color_turquoise_approx;
-					}
-					.syno-as-slider-bg {
-						position: absolute;
-						background-color: $color_ghost_approx;
-						filter: alpha(opacity=20);
-						//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-						box-shadow: inset 0 1px 1px $black_20;
-						width: 100%;
-						height: 4px;
-						background-color: $color_gallery_approx;
-						//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-						box-shadow: inset 0 1px 2px $black_15;
-						opacity: 1;
-						filter: alpha(opacity=100);
-					}
-					.x-slider-thumb {
-						z-index: 10;
-						background-image: $url_8;
-						background-size: 16px 16px;
-						width: 16px;
-						height: 16px;
-						top: -7px;
-						&.x-slider-thumb-over {
-							background-position: 0 0;
-						}
-						&.x-slider-thumb-drag {
-							background-position: 0 0;
-						}
-					}
-					&.x-slider-horz {
-						height: 16px;
-						top: 6px;
-						.x-slider-end {
-							height: 16px;
-							top: 6px;
-						}
-						.x-slider-inner {
-							height: 16px;
-							top: 6px;
-						}
-					}
-				}
-				.x-slider-horz.syno-as-position-slider {
-					background-image: none;
-					height: 4px;
-					.x-slider-end {
-						background-image: none;
-						height: 4px;
-					}
-					.x-slider-inner {
-						background-image: none;
-						height: 4px;
-					}
-				}
-			}
-			.mini-info-div {
-				position: absolute;
-				top: 8px;
-				left: 94px;
-				line-height: 14px;
-				div {
-					line-height: 18px;
-					width: 240px;
-					white-space: nowrap;
-					overflow: hidden;
-				}
-				.mini-title {
-					height: 18px;
-					font-weight: bold;
-					font-size: 13px;
-				}
-			}
-			.mini-thumb-div {
-				position: absolute;
-				width: 76px;
-				height: 76px;
-				overflow: hidden;
-				background-image: $url_9;
-				background-size: 76px 76px;
-				background-repeat: no-repeat;
-				margin-top: 8px;
-				margin-left: 8px;
-				img {
-					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-					box-shadow: 0 1px 3px $black_85;
-				}
-				&.syno-as-cover-hide-bg {
-					background: none;
-				}
-			}
-			.mini-control-btns {
-				position: absolute;
-				left: 94px;
-				top: 36px;
-				width: 240px;
-				.mini-btn {
-					display: inline-block;
-					float: left;
-					margin-top: 8px;
-					margin-right: 20px;
-				}
-				.mini-volume {
-					margin-left: 16px;
-					button {
-						background-image: $url_10;
-						background-size: 24px 192px;
-					}
-					.volume-mute {
-						button {
-							background-position: 0 -72px;
-						}
-						&.x-btn-over button {
-							background-position: 0 -96px;
-						}
-						&.x-btn-click button {
-							background-position: 0 -120px;
-						}
-					}
-				}
-				.mini-stop {
-					margin-right: 0;
-					button {
-						background-image: $url_13;
-						background-size: 24px 96px;
-					}
-				}
-				.mini-play {
-					margin-top: 3px;
-					.x-btn-mc {
-						height: 32px;
-					}
-					button {
-						width: 32px;
-						background-image: $url_14;
-						background-size: 32px 128px;
-					}
-					.x-btn-noicon .x-btn-small .x-btn-text {
-						height: 32px;
-					}
-					.x-btn-over button {
-						background-position: 0 -32px;
-					}
-					.x-btn-click button {
-						background-position: 0 -64px;
-					}
-					.player-btn-pause button {
-						background-image: $url_15;
-						background-size: 32px 128px;
-					}
-				}
-				.mini-prev button {
-					background-image: $url_11;
-					background-size: 24px 96px;
-				}
-				.mini-next button {
-					background-image: $url_12;
-					background-size: 24px 96px;
-				}
-			}
-			.mini-duration {
-				position: absolute;
-				left: 94px;
-				bottom: 10px;
-				width: 240px;
-				text-align: center;
-				.info-position {
-					
-				}
-			}
-			.mini-btn {
-				.x-btn-ml {
-					background-image: none;
-					display: none;
-				}
-				.x-btn-mr {
-					background-image: none;
-					display: none;
-				}
-				.x-btn-mc {
-					background-image: none;
-					height: 24px;
-				}
-				button {
-					width: 24px;
-					padding-left: 0;
-					padding-right: 0;
-				}
-				.x-btn-noicon .x-btn-small .x-btn-text {
-					height: 24px;
-				}
-				.x-btn-over button {
-					background-position: 0 -24px;
-				}
-				.x-btn-click button {
-					background-position: 0 -48px;
-				}
-			}
-			.mini-back-to-normal {
-				position: absolute;
-				right: 6px;
-				top: 6px;
-				.x-btn-mc {
-					height: 16px;
-				}
-				button {
-					width: 16px;
-					background-image: $url_16;
-					background-size: 16px 64px;
-				}
-				.x-btn-noicon .x-btn-small .x-btn-text {
-					height: 16px;
-				}
-				.x-btn-over button {
-					background-position: 0 -16px;
-				}
-				.x-btn-click button {
-					background-position: 0 -32px;
-				}
-			}
-			.mini-display-mode {
-				position: absolute;
-				right: 6px;
-				bottom: 10px;
-				.x-btn-mc {
-					height: 16px;
-				}
-				button {
-					width: 16px;
-					background-image: $url_16;
-					background-size: 16px 64px;
-					background-image: $url_17;
-					background-size: 16px 112px;
-				}
-				.x-btn-over {
-					button {
-						background-position: 0 -16px;
-					}
-					&.btn_mode_display_queue button {
-						background-position: 0 -48px;
-					}
-					&.btn_mode_display_lyrics button {
-						background-position: 0 -96px;
-					}
-				}
-				.x-btn-noicon .x-btn-small .x-btn-text {
-					height: 16px;
-				}
-				.x-btn-click button {
-					background-position: 0 -32px;
-					background-position: 0 -16px;
-				}
-				.btn_mode_display_queue button {
-					background-position: 0 -32px;
-				}
-				.btn_mode_display_lyrics button {
-					background-position: 0 -80px;
-				}
-			}
-		}
-		.syno-as-mobile-position {
-			display: none;
-		}
-		.syno-as-songinfo-grid {
-			.x-grid3-row {
-				border: none;
-				background-color: $color_caribbean_green_10_approx;
-				.x-unselectable {
-					//Instead of the line below you could use @include user-select($select)
-					user-select: text;
-				}
-			}
-			.x-grid3-row-over {
-				background-color: $color_mine_shaft_approx;
-				color: $color_boulder_approx;
-			}
-			.x-grid3-cell-inner {
-				padding-left: 0;
-			}
-		}
-		.syno-as-songcover-right {
-			margin-top: 24px;
-			margin-right: 20px;
-			line-height: 20px;
-		}
-		.syno-as-songinfo-upper {
-			.songinfo-thumb-div {
-				display: inline-block;
-				width: 100px;
-				height: 100px;
-				margin-top: 12px;
-				margin-left: 20px;
-				position: relative;
-				img {
-					max-width: 100px;
-					max-height: 100px;
-					position: absolute;
-					top: 0;
-					left: 0;
-					right: 0;
-					bottom: 0;
-					margin: auto;
-					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-					box-shadow: none;
-				}
-			}
-			.songinfo-info-div {
-				position: absolute;
-				top: 22px;
-				left: 160px;
-				width: 350px;
-				height: 100px;
-				line-height: 20px;
-				div {
-					width: 350px;
-					overflow: hidden;
-					text-overflow: ellipsis;
-					white-space: nowrap;
-				}
-			}
-			.songinfo-split {
-				border-top: 1px solid $color_purple_approx;
-				border-bottom: 1px solid $color_purple_approx;
-			}
-		}
-		.syno-as-eq-dialog {
-			.syno-as-eq-slider-text {
-				color: $color_dove_gray_approx;
-			}
-			.syno-as-eq-slider-bg {
-				background-color: $color_athens_gray_approx;
-			}
-		}
-		.syno-as-mini-player-window {
-			border-top: 3px solid $color_boulder_approx !important;
-			.x-window-mc {
-				background-color: $color_mine_shaft_approx;
-			}
-			.x-window-body {
-				background-color: $color_mine_shaft_approx;
-			}
-			.x-panel-body {
-				background-color: $color_mine_shaft_approx;
-			}
-			.x-window-footer {
-				background-color: $color_hint_of_red_approx;
-			}
-			.syno-as-grid {
-				.x-grid3 {
-					background-color: $color_mine_shaft_approx !important;
-				}
-				div.x-grid3-row {
-					background-color: $color_mine_shaft_approx !important;
-					&.x-grid3-row-over {
-						background-color: $color_bahama_blue_approx !important;
-						color: $color_alto_approx !important;
-					}
-					&.x-grid3-row-selected {
-						background-color: $color_cod_gray_approx !important;
-						color: $color_lochmara_approx !important;
-					}
-				}
-			}
-			.x-window-plain .x-window-mc {
-				background-color: $color_mine_shaft_approx;
-			}
-		}
-		.syno-as-listMode .x-btn.x-btn-pressed {
-			background-image: linear-gradient($color_lochmara_approx, $color_lochmara_approx);
-			background-color: $color_lochmara_approx;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 2px $color_bahama_blue_approx inset;
-		}
-		.syno-as-thumbMode .x-btn.x-btn-pressed {
-			border: solid 1px $color_lochmara_approx;
-			background-image: linear-gradient($color_lochmara_approx, $color_lochmara_approx);
-			background-color: $color_lochmara_approx;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: 0 1px 2px $color_bahama_blue_approx inset;
-		}
-		.syno-as-mobile-win .syno-as-player-panel {
-			background-color: $color_boulder_approx;
-			.syno-as-control {
-				background-color: $color_boulder_approx;
-			}
-		}
-		.syno-as-smart-pls-win .syno-as-info-split {
-			border-top: 1px solid $color_purple_approx;
-			border-bottom: 1px solid $color_purple_approx;
-		}
-		.syno -as-win .syno-as-list .x-tree-node .syno-as-list-title * {
-			cursor: default;
-		}
-		.syno-ux-menu.x-layer.syno-as-vertical-volume-menu.syno-ux-button-menu {
-			padding: 0 15px 12px;
-			border: none;
-			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-			box-shadow: none;
-			background-color: transparent;
-			background-image: $url_18;
-			background-size: 52px 172px;
-			.syno-as-vertical-volume-slider {
-				&.x-slider-vert {
-					background-image: none;
-					padding-top: 10px;
-					.x-slider-end {
-						background-image: none;
-						padding-top: 10px;
-					}
-					.x-slider-inner {
-						background-image: none;
-						padding-top: 10px;
-					}
-				}
-				.syno-as-slider-progress {
-					position: absolute;
-					z-index: 9;
-					width: 6px;
-					left: 8px;
-					bottom: -3px;
-					
-				}
-				.syno-as-slider-bg {
-					position: absolute;
-					width: 6px;
-					height: 124px;
-					left: 8px;
-					bottom: -3px;
-					background-color: $color_ghost_approx;
-				}
-				.x-slider-thumb {
-					z-index: 10;
-					background-image: $url_19;
-					background-size: 18px 18px;
-					width: 18px;
-					height: 18px;
-					left: 2px;
-					&.x-slider-thumb-over {
-						background-position: 0 0;
-					}
-					&.x-slider-thumb-drag {
-						background-position: 0 0;
-					}
-				}
-			}
-		}
-		.syno-as-dialog.syno-as-tag-editor-win {
-			.x-toolbar-right {
-				padding-right: 13px;
-			}
-			.x-toolbar-left {
-				padding-left: 8px;
-			}
-			.x-window-footer {
-				.x-toolbar-layout-ct {
-					padding-left: 20px;
-					padding-right: 20px;
-				}
-				.x-toolbar-ct {
-					padding-top: 4px;
-					background-image: $url_20;
-					background-size: 8px 4px;
-					background-repeat: repeat-x;
-				}
-				.x-toolbar-right {
-					.x-toolbar-cell {
-						padding: 0;
-					}
-					.syno-ux-button {
-						margin: 8px 10px 8px 0;
-					}
-				}
-			}
-		}
-	}
-	.syno-ux-gridpanel {
-		.x-grid3-header {
-			border-bottom: 1px solid $color_mine_shaft_approx !important;
-		}
-		.syno-ux-editorgridpanel {
-			.x-grid3-header {
-				border-bottom: 1px solid $color_mine_shaft_approx !important;
-			}
-			.x-grid3-row {
-				border-bottom: 1px solid $color_mine_shaft_approx !important;
-			}
-			.x-grid3-hd {
-				@extend %extend_1;
-			}
-		}
-		.x-grid3-row {
-			border-bottom: 1px solid $color_mine_shaft_approx !important;
-		}
-		.x-grid3-hd {
-			@extend %extend_1;
-		}
-	}
-	.hide-org-hd-menu {
-		&.syno-ux-gridpanel .x-grid3-header .x-grid3-header-bwrap {
-			background-color: $color_mine_shaft_approx !important;
-			color: $color_lochmara_approx !important;
-		}
-		&.syno-ux-editorgridpanel .x-grid3-header .x-grid3-header-bwrap {
-			background-color: $color_mine_shaft_approx !important;
-			color: $color_lochmara_approx !important;
-		}
-	}
-	.syno-ux-button-default {
-		background-image: linear-gradient($color_bahama_blue_approx, $color_lochmara_approx);
-		background-color: $color_lochmara_approx !important;
-		color: $color_mine_shaft_approx !important;
-	}
-	div.syno-as-win.syno-as-sharing-win {
-		.x-window-tl {
-			background-color: $color_boulder_approx;
-		}
-		.x-window-header-text {
-			color: $color_alto_approx;
-		}
-		.syno-as-mobile-panel {
-			.syno-ux-gridpanel {
-				.syno-as-data-cell {
-					&.syno-as-data-title div {
-						color: $color_bahama_blue_approx;
-					}
-					&.syno-as-data-album div {
-						color: $color_river_bed_60_approx;
-					}
-				}
-				.x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
-					color: $color_river_bed_60_approx;
-				}
-			}
-			.syno-as-lpq-info-div {
-				.lpq-title-text {
-					color: $color_bahama_blue_approx;
-				}
-				.lpq-album-text {
-					color: $color_bahama_blue_approx;
-				}
-				.lpq-artist-text {
-					color: $color_bahama_blue_approx;
-				}
-			}
-			.lpq-info-div {
-				.lpq-title-text {
-					color: $color_alto_approx;
-				}
-				.lpq-album-text {
-					color: $color_alto_approx;
-				}
-				.lpq-artist-text {
-					color: $color_alto_approx;
-				}
-			}
-			.lpq-thumb-div .mobile-info-bg {
-				background-image: linear-gradient(rgba(0, 0, 0, 0), $black);
-				opacity: 0.3;
-			}
-		}
-		.x-tool .syno-ux-button.x-btn.x-btn-pressed {
-			background-color: $black_25;
-		}
-		.syno-as-sharing-empty-wrap .syno-as-sharing-empty .empty-text {
-			color: $color_bahama_blue_approx;
-		}
-	}
+      &:hover {
+        filter: grayscale(0.8);
+        box-shadow: 7px 7px 7px $color_caribbean_green_10_approx;
+      }
 
-	table > tbody > tr > td.x-toolbar-right > table > tbody > tr > table > tbody > tr td {
-		background: $color_cod_gray_approx;
-		color: $color_allports_approx;
-	}
+      &.x-view-selected {
+        background-color: $color_mine_shaft_approx !important;
+        border: 1px solid $black !important;
+      }
+      &.x-view-over {
+        background-color: $color_ebony_clay_approx !important;
+        border: 1px solid $black !important;
+      }
+    }
+    .thumb.thumb-loading {
+      background-color: $color_bahama_blue_approx !important;
+    }
+    .thumb-wrap span {
+      &.thumb-title {
+        color: $color_river_bed_40_approx !important;
+      }
+      &.thumb-artist {
+        color: $color_river_bed_40_approx !important;
+      }
+    }
+    .syno-as-volume-slider .syno-as-slider-bg {
+      background-color: $color_cod_gray_approx;
+    }
+  }
+
+  .syno-as-dialog {
+    .x-window-tl {
+      background-image: linear-gradient(
+        $color_bahama_blue_approx,
+        $color_lochmara_approx
+      ) !important;
+      border-top-color: $color_boulder_approx !important;
+      color: $color_alto_approx;
+    }
+    .x-window-header-text {
+      color: $color_boulder_approx;
+    }
+    .x-panel-noborder
+      .x-panel-tbar-noborder
+      .x-toolbar
+      .x-toolbar-right-row
+      td {
+      background-color: $color_caribbean_green_10_approx;
+    }
+  }
+  .syno-as-toolbar {
+    .syno-audio-lyrics-line-highlight {
+      color: $color_boulder_approx;
+      font-weight: bold;
+    }
+    .syno-as-multi-airplay-all-line {
+      background-color: $pink;
+    }
+    .syno-as-multi-airplay-device-line {
+      background-color: $pink;
+    }
+    .syno-as-multi-aiplay-text {
+      color: $pink;
+    }
+    .syno-search-all-container {
+      background-position: 4px;
+      background-repeat: no-repeat;
+      font-size: 15px;
+      color: $color_lochmara_approx;
+      line-height: 38px;
+      display: inline-block;
+      padding-left: 35px;
+      &.syno-search-all-by-artist {
+        background-image: $url_0;
+        background-size: 24px 24px;
+      }
+      &.syno-search-all-by-album {
+        background-image: $url_1;
+        background-size: 24px 24px;
+      }
+      &.syno-search-all-by-song {
+        background-image: $url_2;
+        background-size: 24px 24px;
+      }
+    }
+    .syno-search-all-panel {
+      height: 238px;
+      .syno-search-all-more-btn {
+        background-color: transparent;
+        border: none;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-top: 5px;
+        background-image: $url_3;
+        background-size: 24px 72px;
+        background-repeat: no-repeat;
+        button {
+          background-color: transparent;
+          border: none;
+        }
+        &.x-btn-over {
+          background-position: 0 -24px;
+          cursor: pointer;
+        }
+        &.x-btn-click {
+          background-position: 0 -48px;
+        }
+      }
+    }
+    .syno-search-divider {
+      background-image: $url_4;
+      background-size: 1px 4px;
+      background-repeat: repeat-x;
+      background-position: 0 bottom;
+      height: 28px;
+    }
+    .syno-as-home-section-title {
+      line-height: 28px;
+      height: 28px;
+      margin-top: 12px;
+      padding-left: 32px;
+      font-size: 15px;
+      color: $color_outer_space_approx;
+      background-position: 0 2px;
+      background-repeat: no-repeat;
+      &.icon-type-pin {
+        background-image: $url_5;
+        background-size: 24px 24px;
+      }
+      &.icon-type-genre {
+        background-image: $url_6;
+        background-size: 24px 48px;
+      }
+    }
+    .syno-as-songcover-left {
+      .songcover-thumb-div {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-right: 20px;
+        position: relative;
+        img {
+          max-width: 200px;
+          max-height: 200px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+          box-shadow: none;
+        }
+      }
+      .thumb-wrap .thumb .songcover-thumb-div {
+        border: 1px solid transparent;
+        &.songcover-thumb-div-over {
+          background-color: $color_ebony_clay_approx;
+          border: 1px solid $black;
+        }
+      }
+    }
+    .syno-ux-gridpanel {
+      &.syno-as-search-result-local-grid {
+        border: solid $color_athens_gray_approx;
+        border-width: 0 1px 0 0;
+        margin-right: 2px;
+      }
+      &.syno-as-search-result-online-grid {
+        border: solid $color_athens_gray_approx;
+        border-width: 0 0 0 1px;
+        margin-left: 2px;
+        .x-grid3-row {
+          background-image: $url_7;
+          background-size: 24px 72px;
+          background-repeat: no-repeat;
+          background-position: right 0;
+          width: 24px;
+          height: 27px !important;
+          &.x-grid3-row-over {
+            background-position: right -24px;
+          }
+          &.x-grid3-row-selected {
+            background-position: right -48px;
+          }
+        }
+        .x-grid3-hd .x-grid3-hd-inner {
+          color: $color_boulder_approx;
+        }
+      }
+    }
+    .syno-as-search-result-menu {
+      &.x-layer {
+        padding: 0;
+      }
+      .x-menu-list-item {
+        .x-menu-item {
+          padding: 0;
+        }
+        span {
+          padding: 0 0 0 8px;
+        }
+      }
+      .x-menu-item-text {
+        text-overflow: ellipsis;
+        display: inline-block;
+        overflow: hidden;
+        &.x-menu-item-blue-text {
+          &.x-menu-item-active {
+            color: $color_alto_approx;
+          }
+        }
+      }
+      .x-menu-check-item:hover {
+        cursor: pointer;
+      }
+    }
+    .syno-as-search-result-menu-item {
+      line-height: 27px;
+      font-size: 12px;
+    }
+    .syno-as-homepage-pin-empty {
+      padding: 10px;
+      margin: 26px auto;
+      font-size: 12px;
+      color: $color_bahama_blue_approx;
+      line-height: 24px;
+      text-align: center;
+      max-width: 680px;
+      display: block;
+    }
+    .syno-as-slider {
+      .syno-as-slider-progress {
+        position: absolute;
+        left: -7px;
+        height: 4px;
+
+        z-index: 1;
+      }
+      .syno-as-slider-bg {
+        position: absolute;
+        height: 4px;
+        background-color: $color_ghost_approx;
+        filter: alpha(opacity=20);
+        //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+        box-shadow: inset 0 1px 1px $black_20;
+        width: 100%;
+      }
+      .x-slider-thumb {
+        z-index: 10;
+        &.x-slider-thumb-over {
+          background-position: 0 0;
+        }
+        &.x-slider-thumb-drag {
+          background-position: 0 0;
+        }
+      }
+      &.x-slider-horz {
+        background-image: none;
+        height: 4px;
+        .x-slider-end {
+          background-image: none;
+          height: 4px;
+        }
+        .x-slider-inner {
+          background-image: none;
+          height: 4px;
+        }
+      }
+    }
+    .syno-as-mini-control-div {
+      height: 98px;
+      position: relative;
+      background-image: url($data_uri_1);
+      background-size: 100%;
+      background-image: linear-gradient(
+        $color_silver_chalice_approx,
+        $color_hint_of_red_approx 40px
+      );
+      .mini_position_div {
+        position: absolute;
+        top: 90px;
+        height: 16px;
+        .syno-as-position-slider {
+          .syno-as-slider-progress {
+            position: absolute;
+            left: -7px;
+
+            z-index: 1;
+            height: 4px;
+            background-color: $color_turquoise_approx;
+          }
+          .syno-as-slider-bg {
+            position: absolute;
+            background-color: $color_ghost_approx;
+            filter: alpha(opacity=20);
+            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            box-shadow: inset 0 1px 1px $black_20;
+            width: 100%;
+            height: 4px;
+            background-color: $color_gallery_approx;
+            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            box-shadow: inset 0 1px 2px $black_15;
+            opacity: 1;
+            filter: alpha(opacity=100);
+          }
+          .x-slider-thumb {
+            z-index: 10;
+            background-image: $url_8;
+            background-size: 16px 16px;
+            width: 16px;
+            height: 16px;
+            top: -7px;
+            &.x-slider-thumb-over {
+              background-position: 0 0;
+            }
+            &.x-slider-thumb-drag {
+              background-position: 0 0;
+            }
+          }
+          &.x-slider-horz {
+            height: 16px;
+            top: 6px;
+            .x-slider-end {
+              height: 16px;
+              top: 6px;
+            }
+            .x-slider-inner {
+              height: 16px;
+              top: 6px;
+            }
+          }
+        }
+        .x-slider-horz.syno-as-position-slider {
+          background-image: none;
+          height: 4px;
+          .x-slider-end {
+            background-image: none;
+            height: 4px;
+          }
+          .x-slider-inner {
+            background-image: none;
+            height: 4px;
+          }
+        }
+      }
+      .mini-info-div {
+        position: absolute;
+        top: 8px;
+        left: 94px;
+        line-height: 14px;
+        div {
+          line-height: 18px;
+          width: 240px;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .mini-title {
+          height: 18px;
+          font-weight: bold;
+          font-size: 13px;
+        }
+      }
+      .mini-thumb-div {
+        position: absolute;
+        width: 76px;
+        height: 76px;
+        overflow: hidden;
+        background-image: $url_9;
+        background-size: 76px 76px;
+        background-repeat: no-repeat;
+        margin-top: 8px;
+        margin-left: 8px;
+        img {
+          //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+          box-shadow: 0 1px 3px $black_85;
+        }
+        &.syno-as-cover-hide-bg {
+          background: none;
+        }
+      }
+      .mini-control-btns {
+        position: absolute;
+        left: 94px;
+        top: 36px;
+        width: 240px;
+        .mini-btn {
+          display: inline-block;
+          float: left;
+          margin-top: 8px;
+          margin-right: 20px;
+        }
+        .mini-volume {
+          margin-left: 16px;
+          button {
+            background-image: $url_10;
+            background-size: 24px 192px;
+          }
+          .volume-mute {
+            button {
+              background-position: 0 -72px;
+            }
+            &.x-btn-over button {
+              background-position: 0 -96px;
+            }
+            &.x-btn-click button {
+              background-position: 0 -120px;
+            }
+          }
+        }
+        .mini-stop {
+          margin-right: 0;
+          button {
+            background-image: $url_13;
+            background-size: 24px 96px;
+          }
+        }
+        .mini-play {
+          margin-top: 3px;
+          .x-btn-mc {
+            height: 32px;
+          }
+          button {
+            width: 32px;
+            background-image: $url_14;
+            background-size: 32px 128px;
+          }
+          .x-btn-noicon .x-btn-small .x-btn-text {
+            height: 32px;
+          }
+          .x-btn-over button {
+            background-position: 0 -32px;
+          }
+          .x-btn-click button {
+            background-position: 0 -64px;
+          }
+          .player-btn-pause button {
+            background-image: $url_15;
+            background-size: 32px 128px;
+          }
+        }
+        .mini-prev button {
+          background-image: $url_11;
+          background-size: 24px 96px;
+        }
+        .mini-next button {
+          background-image: $url_12;
+          background-size: 24px 96px;
+        }
+      }
+      .mini-duration {
+        position: absolute;
+        left: 94px;
+        bottom: 10px;
+        width: 240px;
+        text-align: center;
+        .info-position {
+        }
+      }
+      .mini-btn {
+        .x-btn-ml {
+          background-image: none;
+          display: none;
+        }
+        .x-btn-mr {
+          background-image: none;
+          display: none;
+        }
+        .x-btn-mc {
+          background-image: none;
+          height: 24px;
+        }
+        button {
+          width: 24px;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        .x-btn-noicon .x-btn-small .x-btn-text {
+          height: 24px;
+        }
+        .x-btn-over button {
+          background-position: 0 -24px;
+        }
+        .x-btn-click button {
+          background-position: 0 -48px;
+        }
+      }
+      .mini-back-to-normal {
+        position: absolute;
+        right: 6px;
+        top: 6px;
+        .x-btn-mc {
+          height: 16px;
+        }
+        button {
+          width: 16px;
+          background-image: $url_16;
+          background-size: 16px 64px;
+        }
+        .x-btn-noicon .x-btn-small .x-btn-text {
+          height: 16px;
+        }
+        .x-btn-over button {
+          background-position: 0 -16px;
+        }
+        .x-btn-click button {
+          background-position: 0 -32px;
+        }
+      }
+      .mini-display-mode {
+        position: absolute;
+        right: 6px;
+        bottom: 10px;
+        .x-btn-mc {
+          height: 16px;
+        }
+        button {
+          width: 16px;
+          background-image: $url_16;
+          background-size: 16px 64px;
+          background-image: $url_17;
+          background-size: 16px 112px;
+        }
+        .x-btn-over {
+          button {
+            background-position: 0 -16px;
+          }
+          &.btn_mode_display_queue button {
+            background-position: 0 -48px;
+          }
+          &.btn_mode_display_lyrics button {
+            background-position: 0 -96px;
+          }
+        }
+        .x-btn-noicon .x-btn-small .x-btn-text {
+          height: 16px;
+        }
+        .x-btn-click button {
+          background-position: 0 -32px;
+          background-position: 0 -16px;
+        }
+        .btn_mode_display_queue button {
+          background-position: 0 -32px;
+        }
+        .btn_mode_display_lyrics button {
+          background-position: 0 -80px;
+        }
+      }
+    }
+    .syno-as-mobile-position {
+      display: none;
+    }
+    .syno-as-songinfo-grid {
+      .x-grid3-row {
+        border: none;
+        background-color: $color_caribbean_green_10_approx;
+        .x-unselectable {
+          //Instead of the line below you could use @include user-select($select)
+          user-select: text;
+        }
+      }
+      .x-grid3-row-over {
+        background-color: $color_mine_shaft_approx;
+        color: $color_boulder_approx;
+      }
+      .x-grid3-cell-inner {
+        padding-left: 0;
+      }
+    }
+    .syno-as-songcover-right {
+      margin-top: 24px;
+      margin-right: 20px;
+      line-height: 20px;
+    }
+    .syno-as-songinfo-upper {
+      .songinfo-thumb-div {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-top: 12px;
+        margin-left: 20px;
+        position: relative;
+        img {
+          max-width: 100px;
+          max-height: 100px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+          box-shadow: none;
+        }
+      }
+      .songinfo-info-div {
+        position: absolute;
+        top: 22px;
+        left: 160px;
+        width: 350px;
+        height: 100px;
+        line-height: 20px;
+        div {
+          width: 350px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+      .songinfo-split {
+        border-top: 1px solid $color_purple_approx;
+        border-bottom: 1px solid $color_purple_approx;
+      }
+    }
+    .syno-as-eq-dialog {
+      .syno-as-eq-slider-text {
+        color: $color_dove_gray_approx;
+      }
+      .syno-as-eq-slider-bg {
+        background-color: $color_athens_gray_approx;
+      }
+    }
+    .syno-as-mini-player-window {
+      border-top: 3px solid $color_boulder_approx !important;
+      .x-window-mc {
+        background-color: $color_mine_shaft_approx;
+      }
+      .x-window-body {
+        background-color: $color_mine_shaft_approx;
+      }
+      .x-panel-body {
+        background-color: $color_mine_shaft_approx;
+      }
+      .x-window-footer {
+        background-color: $color_hint_of_red_approx;
+      }
+      .syno-as-grid {
+        .x-grid3 {
+          background-color: $color_mine_shaft_approx !important;
+        }
+        div.x-grid3-row {
+          background-color: $color_mine_shaft_approx !important;
+          &.x-grid3-row-over {
+            background-color: $color_bahama_blue_approx !important;
+            color: $color_alto_approx !important;
+          }
+          &.x-grid3-row-selected {
+            background-color: $color_cod_gray_approx !important;
+            color: $color_lochmara_approx !important;
+          }
+        }
+      }
+      .x-window-plain .x-window-mc {
+        background-color: $color_mine_shaft_approx;
+      }
+    }
+    .syno-as-listMode .x-btn.x-btn-pressed {
+      background-image: linear-gradient(
+        $color_lochmara_approx,
+        $color_lochmara_approx
+      );
+      background-color: $color_lochmara_approx;
+      //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      box-shadow: 0 1px 2px $color_bahama_blue_approx inset;
+    }
+    .syno-as-thumbMode .x-btn.x-btn-pressed {
+      border: solid 1px $color_lochmara_approx;
+      background-image: linear-gradient(
+        $color_lochmara_approx,
+        $color_lochmara_approx
+      );
+      background-color: $color_lochmara_approx;
+      //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      box-shadow: 0 1px 2px $color_bahama_blue_approx inset;
+    }
+    .syno-as-mobile-win .syno-as-player-panel {
+      background-color: $color_boulder_approx;
+      .syno-as-control {
+        background-color: $color_boulder_approx;
+      }
+    }
+    .syno-as-smart-pls-win .syno-as-info-split {
+      border-top: 1px solid $color_purple_approx;
+      border-bottom: 1px solid $color_purple_approx;
+    }
+    .syno -as-win .syno-as-list .x-tree-node .syno-as-list-title * {
+      cursor: default;
+    }
+    .syno-ux-menu.x-layer.syno-as-vertical-volume-menu.syno-ux-button-menu {
+      padding: 0 15px 12px;
+      border: none;
+      //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      box-shadow: none;
+      background-color: transparent;
+      background-image: $url_18;
+      background-size: 52px 172px;
+      .syno-as-vertical-volume-slider {
+        &.x-slider-vert {
+          background-image: none;
+          padding-top: 10px;
+          .x-slider-end {
+            background-image: none;
+            padding-top: 10px;
+          }
+          .x-slider-inner {
+            background-image: none;
+            padding-top: 10px;
+          }
+        }
+        .syno-as-slider-progress {
+          position: absolute;
+          z-index: 9;
+          width: 6px;
+          left: 8px;
+          bottom: -3px;
+        }
+        .syno-as-slider-bg {
+          position: absolute;
+          width: 6px;
+          height: 124px;
+          left: 8px;
+          bottom: -3px;
+          background-color: $color_ghost_approx;
+        }
+        .x-slider-thumb {
+          z-index: 10;
+          background-image: $url_19;
+          background-size: 18px 18px;
+          width: 18px;
+          height: 18px;
+          left: 2px;
+          &.x-slider-thumb-over {
+            background-position: 0 0;
+          }
+          &.x-slider-thumb-drag {
+            background-position: 0 0;
+          }
+        }
+      }
+    }
+    .syno-as-dialog.syno-as-tag-editor-win {
+      .x-toolbar-right {
+        padding-right: 13px;
+      }
+      .x-toolbar-left {
+        padding-left: 8px;
+      }
+      .x-window-footer {
+        .x-toolbar-layout-ct {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        .x-toolbar-ct {
+          padding-top: 4px;
+          background-image: $url_20;
+          background-size: 8px 4px;
+          background-repeat: repeat-x;
+        }
+        .x-toolbar-right {
+          .x-toolbar-cell {
+            padding: 0;
+          }
+          .syno-ux-button {
+            margin: 8px 10px 8px 0;
+          }
+        }
+      }
+    }
+  }
+  .syno-ux-gridpanel {
+    .x-grid3-header {
+      border-bottom: 1px solid $color_mine_shaft_approx !important;
+    }
+    .syno-ux-editorgridpanel {
+      .x-grid3-header {
+        border-bottom: 1px solid $color_mine_shaft_approx !important;
+      }
+      .x-grid3-row {
+        border-bottom: 1px solid $color_mine_shaft_approx !important;
+      }
+      .x-grid3-hd {
+        @extend %extend_1;
+      }
+    }
+    .x-grid3-row {
+      border-bottom: 1px solid $color_mine_shaft_approx !important;
+    }
+    .x-grid3-hd {
+      @extend %extend_1;
+    }
+  }
+  .hide-org-hd-menu {
+    &.syno-ux-gridpanel .x-grid3-header .x-grid3-header-bwrap {
+      background-color: $color_mine_shaft_approx !important;
+      color: $color_lochmara_approx !important;
+    }
+    &.syno-ux-editorgridpanel .x-grid3-header .x-grid3-header-bwrap {
+      background-color: $color_mine_shaft_approx !important;
+      color: $color_lochmara_approx !important;
+    }
+  }
+  .syno-ux-button-default {
+    background-image: linear-gradient(
+      $color_bahama_blue_approx,
+      $color_lochmara_approx
+    );
+    background-color: $color_lochmara_approx !important;
+    color: $color_mine_shaft_approx !important;
+  }
+  div.syno-as-win.syno-as-sharing-win {
+    .x-window-tl {
+      background-color: $color_boulder_approx;
+    }
+    .x-window-header-text {
+      color: $color_alto_approx;
+    }
+    .syno-as-mobile-panel {
+      .syno-ux-gridpanel {
+        .syno-as-data-cell {
+          &.syno-as-data-title div {
+            color: $color_bahama_blue_approx;
+          }
+          &.syno-as-data-album div {
+            color: $color_river_bed_60_approx;
+          }
+        }
+        .x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
+          color: $color_river_bed_60_approx;
+        }
+      }
+      .syno-as-lpq-info-div {
+        .lpq-title-text {
+          color: $color_bahama_blue_approx;
+        }
+        .lpq-album-text {
+          color: $color_bahama_blue_approx;
+        }
+        .lpq-artist-text {
+          color: $color_bahama_blue_approx;
+        }
+      }
+      .lpq-info-div {
+        .lpq-title-text {
+          color: $color_alto_approx;
+        }
+        .lpq-album-text {
+          color: $color_alto_approx;
+        }
+        .lpq-artist-text {
+          color: $color_alto_approx;
+        }
+      }
+      .lpq-thumb-div .mobile-info-bg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), $black);
+        opacity: 0.3;
+      }
+    }
+    .x-tool .syno-ux-button.x-btn.x-btn-pressed {
+      background-color: $black_25;
+    }
+    .syno-as-sharing-empty-wrap .syno-as-sharing-empty .empty-text {
+      color: $color_bahama_blue_approx;
+    }
+  }
+
+  table
+    > tbody
+    > tr
+    > td.x-toolbar-right
+    > table
+    > tbody
+    > tr
+    > table
+    > tbody
+    > tr
+    td {
+    background: $color_cod_gray_approx;
+    color: $color_allports_approx;
+  }
 }
