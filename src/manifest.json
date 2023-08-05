@@ -1,26 +1,26 @@
 {
-    "name": "DS Audio Dark Theme",
-    "short_name": "Darko",
-    "version": "1.0",
-    "manifest_version": 3,
-    "description": "DS Audio Dark Theme",
-    "icons": {
-        "64": "ds.png"
-    },
-    "permissions": [
-        "activeTab"
-    ],
-    "content_scripts": [
-        {
-            "matches": [
-                "http://192.168.0.103:8800/*",
-                "https://192.168.0.103:8800/*",
-                "http://solvill.is-by.us:8800/*",
-                "https://solvill.is-by.us:8800/*"
-            ],
-            "css": [
-                "theme.css"
-            ]
-        }
-    ]
+  "name": "DS Audio Dark Theme",
+  "short_name": "Darko",
+  "version": "1.1",
+  "manifest_version": 3,
+  "description": "DS Audio Dark Theme",
+  "icons": {
+    "64": "ds.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://192.168.0.103:8800/*",
+        "https://192.168.0.103:8800/*",
+        "http://solvill.is-by.us:8800/*",
+        "https://solvill.is-by.us:8800/*"
+      ],
+      "css": [
+        "theme.css"
+      ]
+    }
+  ]
 }
