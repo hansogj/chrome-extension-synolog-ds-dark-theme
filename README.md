@@ -4,7 +4,7 @@ Dark theme for DS Audio
 
 ## Installation
 
-run `npm run start` and then install unpacked directory _/dist_ in the [about://extension](about://extension)
+run `pnpm i --frozen-lockfile` && `pnpm run start` and then install unpacked directory _/dist_ in the [about://extension](about://extension)
 
 ## Debug
 
