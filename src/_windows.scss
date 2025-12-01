@@ -1,0 +1,295 @@
+// _windows.scss
+
+.sds-window-v5 {
+  .ext-el-mask {
+    background-color: $color-caribbean-green-10;
+  }
+  .ext-el-mas {
+    background-color: $color-dark-gray !important;
+  }
+  .x-panel-body {
+    background-color: $color-dark-gray !important;
+  }
+}
+.syno-as-win {
+  .x-window-tl {
+    background-image: url($data-uri-gradient-e7fffd-ffffff);
+    background-size: 100%;
+    background-image: linear-gradient(
+      $color-secondary,
+      $color-tertiary
+    ) !important;
+    background-image: linear-gradient(
+      $color-secondary,
+      $color-tertiary
+    ) !important;
+    border-top-color: $color-light-gray !important;
+    border-top-color: $color-light-gray !important;
+    color: $color-alto;
+    color: $color-alto;
+  }
+  .x-window-header-text {
+    color: $color-light-gray;
+  }
+  .syno-as-ux-pathtoolbar {
+    .x-btn {
+      button {
+        padding: 0;
+        color: $color-secondary;
+      }
+      &.x-btn-over button {
+        color: $color-light-gray;
+        font-weight: bold;
+      }
+    }
+    .x-first-btn button {
+      font-size: 18px;
+      color: $color-alto !important;
+      display: block;
+    }
+  }
+  .ux-pathbuttons-scroller-right {
+    background-color: $color-alto;
+  }
+  .ux-pathbuttons-scroller-left {
+    background-color: $color-alto;
+  }
+  .syno-ux-gridpanel {
+    .x-grid3-row > * {
+      color: $color-white !important;
+    }
+    div.x-grid3-row {
+      &.x-grid3-row-over {
+        background-color: $color-secondary !important;
+        color: $color-white !important;
+      }
+      &.x-grid3-row-selected {
+        background-color: $color-ebony-clay !important;
+        color: $color-tertiary !important;
+      }
+    }
+  }
+  .syno-as-lpq-main-panel {
+    .syno-ux-gridpanel {
+      .syno-as-data-cell {
+        &.syno-as-data-title div {
+          color: $color-secondary;
+        }
+        &.syno-as-data-album div {
+          color: $color-river-bed-60;
+        }
+      }
+      .x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
+        color: $color-river-bed-60;
+      }
+    }
+    .syno-as-lpq-info-div {
+      .lpq-title-text {
+        color: $color-secondary;
+      }
+      .lpq-album-text {
+        color: $color-secondary;
+      }
+      .lpq-artist-text {
+        color: $color-secondary;
+      }
+    }
+  }
+  .syno-as-thumb-pin-type-wrap {
+    background-color: $color-mine-shaft-50;
+  }
+  .syno-as-list {
+    .x-tree-node-leaf {
+      &.x-tree-node-over {
+        background-color: $color-medium-gray;
+        background-color: $color-caribbean-green-10;
+        a span {
+          color: $color-secondary;
+        }
+      }
+      &.x-tree-selected {
+        background-color: $color-caribbean-green-10 !important;
+        a span {
+          color: $color-alto !important;
+        }
+      }
+      a span {
+        color: $color-secondary;
+      }
+    }
+    .syno-as-list-title.x-tree-node-leaf {
+      &.x-tree-node-over {
+        background-color: $color-caribbean-green-10 !important;
+        color: $color-alto;
+        background-color: $color-medium-gray;
+      }
+      a span {
+        color: $color-dark-gray;
+      }
+    }
+    .syno-as-list-shoutcast-leaf.x-tree-node-leaf.x-tree-node-over {
+      color: $color-alto;
+      background-color: $color-medium-gray;
+    }
+  }
+  .syno-as-player-panel {
+    color: $color-alto;
+    .syno-as-control {
+      background-color: $color-secondary !important;
+    }
+    .player-panel-section {
+      border-right: 1px solid $color-white-25;
+    }
+  }
+  .syno-as-thumb-dataview .thumb-wrap {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px $color-shade;
+
+    &:hover {
+      filter: grayscale(0.8);
+      box-shadow: 7px 7px 7px $color-caribbean-green-10;
+    }
+
+    &.x-view-selected {
+      background-color: $color-medium-gray !important;
+      border: 1px solid $color-black !important;
+    }
+    &.x-view-over {
+      background-color: $color-ebony-clay !important;
+      border: 1px solid $color-black !important;
+    }
+  }
+  .thumb.thumb-loading {
+    background-color: $color-secondary !important;
+  }
+  .thumb-wrap span {
+    &.thumb-title {
+      color: $color-river-bed-40 !important;
+    }
+    &.thumb-artist {
+      color: $color-river-bed-40 !important;
+    }
+  }
+  .syno-as-volume-slider .syno-as-slider-bg {
+    background-color: $color-dark-gray;
+  }
+}
+
+.syno-as-dialog {
+  .x-window-tl {
+    background-image: linear-gradient(
+      $color-secondary,
+      $color-tertiary
+    ) !important;
+    border-top-color: $color-light-gray !important;
+    color: $color-alto;
+  }
+  .x-window-header-text {
+    color: $color-light-gray;
+  }
+  .x-panel-noborder .x-panel-tbar-noborder .x-toolbar .x-toolbar-right-row td {
+    background-color: $color-caribbean-green-10;
+  }
+}
+.syno-as-mini-player-window {
+  border-top: 3px solid $color-light-gray !important;
+  .x-window-mc {
+    background-color: $color-medium-gray;
+  }
+  .x-window-body {
+    background-color: $color-medium-gray;
+  }
+  .x-panel-body {
+    background-color: $color-medium-gray;
+  }
+  .x-window-footer {
+    background-color: $color-hint-of-red;
+  }
+  .syno-as-grid {
+    .x-grid3 {
+      background-color: $color-medium-gray !important;
+    }
+    div.x-grid3-row {
+      background-color: $color-medium-gray !important;
+      &.x-grid3-row-over {
+        background-color: $color-secondary !important;
+        color: $color-alto !important;
+      }
+      &.x-grid3-row-selected {
+        background-color: $color-dark-gray !important;
+        color: $color-tertiary !important;
+      }
+    }
+  }
+  .x-window-plain .x-window-mc {
+    background-color: $color-medium-gray;
+  }
+}
+div.syno-as-win.syno-as-sharing-win {
+  .x-window-tl {
+    background-color: $color-light-gray;
+  }
+  .x-window-header-text {
+    color: $color-alto;
+  }
+  .syno-as-mobile-panel {
+    .syno-ux-gridpanel {
+      .syno-as-data-cell {
+        &.syno-as-data-title div {
+          color: $color-secondary;
+        }
+        &.syno-as-data-album div {
+          color: $color-river-bed-60;
+        }
+      }
+      .x-grid3-row .x-grid3-cell .x-grid3-cell-inner {
+        color: $color-river-bed-60;
+      }
+    }
+    .syno-as-lpq-info-div {
+      .lpq-title-text {
+        color: $color-secondary;
+      }
+      .lpq-album-text {
+        color: $color-secondary;
+      }
+      .lpq-artist-text {
+        color: $color-secondary;
+      }
+    }
+    .lpq-info-div {
+      .lpq-title-text {
+        color: $color-alto;
+      }
+      .lpq-album-text {
+        color: $color-alto;
+      }
+      .lpq-artist-text {
+        color: $color-alto;
+      }
+    }
+    .lpq-thumb-div .mobile-info-bg {
+      background-image: linear-gradient(rgba(0, 0, 0, 0), $color-black);
+      opacity: 0.3;
+    }
+  }
+  .x-tool .syno-ux-button.x-btn.x-btn-pressed {
+    background-color: $color-black-25;
+  }
+  .syno-as-sharing-empty-wrap .syno-as-sharing-empty .empty-text {
+    color: $color-secondary;
+  }
+}
+
+.syno-ux-textfilter {
+  .x-form-field-wrap {
+    background-color: $color-caribbean-green-8 !important;
+  }
+}
+
+.x-toolbar-cell {
+  span {
+    background-color: $color-primary !important    ;
+    border-color: $color-shade !important;
+  }
+}

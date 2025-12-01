@@ -1,0 +1,97 @@
+// _mixins.scss
+
+// Mixin for linear gradients
+@mixin linear-gradient($direction, $color1, $color2, $color3: false, $color4: false) {
+  @if $color4 {
+    background-image: linear-gradient($direction, $color1, $color2, $color3, $color4);
+  } @else if $color3 {
+    background-image: linear-gradient($direction, $color1, $color2, $color3);
+  } @else {
+    background-image: linear-gradient($direction, $color1, $color2);
+  }
+}
+
+// Mixin for box shadows
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+// Mixin for user-select
+@mixin user-select($select) {
+  -webkit-touch-callout: $select;
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}
+
+// Mixin for button states (over, click, pressed)
+@mixin button-states($base-image, $base-size, $base-position: 0 0, $over-position: false, $click-position: false) {
+  background-image: $base-image;
+  background-size: $base-size;
+  background-position: $base-position;
+  background-repeat: no-repeat; // Assuming no-repeat for most button icons
+
+  &.x-btn-over {
+    @if $over-position {
+      background-position: $over-position;
+    }
+  }
+
+  &.x-btn-click {
+    @if $click-position {
+      background-position: $click-position;
+    }
+  }
+}
+
+// Mixin for common grid header styles
+@mixin grid-header-styles {
+  border-left: 0;
+  border-bottom: 1px solid $color-border-dark !important;
+  border-right: solid 1px $color-border-dark !important;
+}
+
+// Mixin for general panel body/background
+@mixin panel-background($color) {
+  .x-panel-body {
+    background-color: $color !important;
+  }
+}
+
+// Mixin for window header gradients
+@mixin window-header-gradient($color1, $color2, $border-color, $text-color) {
+  background-image: linear-gradient($color1, $color2) !important;
+  border-top-color: $border-color !important;
+  color: $text-color;
+}
+
+// Mixin for row hover/selected states in grids
+@mixin grid-row-states($hover-bg, $hover-color, $selected-bg, $selected-color) {
+  &.x-grid3-row-over {
+    background-color: $hover-bg !important;
+    color: $hover-color !important;
+  }
+  &.x-grid3-row-selected {
+    background-color: $selected-bg !important;
+    color: $selected-color !important;
+  }
+}
+
+// Mixin for tree node leaf hover/selected states
+@mixin tree-node-leaf-states($hover-bg, $hover-link-color, $selected-bg, $selected-link-color) {
+  &.x-tree-node-over {
+    background-color: $hover-bg;
+    a span {
+      color: $hover-link-color;
+    }
+  }
+  &.x-tree-selected {
+    background-color: $selected-bg !important;
+    a span {
+      color: $selected-link-color !important;
+    }
+  }
+}

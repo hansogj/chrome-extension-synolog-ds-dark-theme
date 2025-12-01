@@ -1,0 +1,8 @@
+// _base.scss
+#sds-desktop {
+  background-color: $color-dark-gray !important;
+}
+table > tbody > tr > td.x-toolbar-right > table > tbody > tr > table > tbody > tr td {
+    background: $color-dark-gray;
+    color: $color-primary;
+  }

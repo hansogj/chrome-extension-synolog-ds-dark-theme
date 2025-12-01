@@ -1,29 +1,29 @@
 {
-    "name": "chrome-extension-synology-ds-dark-theme",
-    "version": "1.4.0",
-    "description": "DS Audio Dark Theme",
-    "main": "theme.css",
-    "files": [
-        "dist/theme.css",
-        "dist/theme.css.map",
-        "dist/*.js",
-        "dist/*.png"
-    ],
-    "dependencies": {
-        "less": "^4.2.0",
-        "sass": "^1.77.8"
-    },
-    "devDependencies": {},
-    "scripts": {
-        "prestart": "rm -rf dist && mkdir -p dist ",
-        "start": "sass src/theme.scss dist/theme.css",
-        "poststart": "cp src/ds.png src/manifest.json dist/."
-    },
-    "keywords": [
-        "DS",
-        "Audio",
-        "Dark"
-    ],
-    "author": "hansogj@gmail.com",
-    "license": "ISC"
+  "name": "chrome-extension-synology-ds-dark-theme",
+  "version": "1.4.1",
+  "description": "DS Audio Dark Theme",
+  "main": "theme.css",
+  "files": [
+    "dist/theme.css",
+    "dist/theme.css.map",
+    "dist/*.js",
+    "dist/*.png"
+  ],
+  "dependencies": {
+    "less": "^4.2.0",
+    "sass": "^1.77.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prestart": "rm -rf dist && mkdir -p dist ",
+    "start": "sass src/theme.scss dist/theme.css",
+    "poststart": "cp src/ds.png src/manifest.json dist/."
+  },
+  "keywords": [
+    "DS",
+    "Audio",
+    "Dark"
+  ],
+  "author": "hansogj@gmail.com",
+  "license": "ISC"
 }
