@@ -13,10 +13,9 @@
   "content_scripts": [
     {
       "matches": [
-        "http://192.168.0.103:8800/*",
-        "https://192.168.0.103:8800/*",
-        "http://solvill.is-by.us:8800/*",
-        "https://solvill.is-by.us:8800/*"
+        "http://192.168.0.103:880/*",
+        "https://192.168.0.103:880/*",
+        "*://*.solvill.is-by.us/*"
       ],
       "css": [
         "theme.css"
