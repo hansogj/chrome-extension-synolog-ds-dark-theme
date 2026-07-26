@@ -144,10 +144,12 @@
   .syno-as-thumb-dataview .thumb-wrap {
     border-radius: 5px;
     box-shadow: 5px 5px 5px $color-shade;
+    transition: transform 120ms ease-out, box-shadow 120ms ease-out, filter 120ms ease-out;
 
     &:hover {
-      filter: grayscale(0.8);
-      box-shadow: 7px 7px 7px $color-caribbean-green-10;
+      transform: translateY(-2px);
+      filter: brightness(1.08);
+      box-shadow: 0 8px 18px $color-black-25, 0 0 0 1px $color-accent;
     }
 
     &.x-view-selected {

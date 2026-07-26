@@ -1,8 +1,28 @@
 // _base.scss
 #sds-desktop {
   background-color: $color-dark-gray !important;
+  color: $color-alto;
 }
 table > tbody > tr > td.x-toolbar-right > table > tbody > tr > table > tbody > tr td {
     background: $color-dark-gray;
     color: $color-primary;
   }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: $color-dark-gray;
+}
+::-webkit-scrollbar-thumb {
+  background: $color-medium-gray;
+  border-radius: 5px;
+
+  &:hover {
+    background: $color-light-gray;
+  }
+}
+::-webkit-scrollbar-corner {
+  background: $color-dark-gray;
+}
